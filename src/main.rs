@@ -9,6 +9,7 @@ mod utils;
 
 #[cfg(test)]
 mod test;
+mod daemon2;
 
 use std::{sync::mpsc::channel, thread::spawn};
 
